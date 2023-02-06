@@ -18,7 +18,7 @@
     <title>CRUD</title>
     <style>
     body {
-        background-color: whitesmoke;
+        background-color: black;
     }
     </style>
 </head>
@@ -39,7 +39,7 @@
               <a class="nav-link" href="#historia">História</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Cardápio</a>
+              <a class="nav-link" href="#cardapio">Cardápio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link">Delivery</a>

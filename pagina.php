@@ -25,13 +25,13 @@ if (isset($_POST['salvar'])) {
     <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-interval="10000">
-                <img src="./hamburgurês.png" class="d-block w-100" alt="...">
+                <img src="./hamburger's.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" data-interval="2000">
-                <img src="./cerveja.png" class="d-block w-100" alt="...">
+                <img src="./cervejav2.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="./sorvete.png" class="d-block w-100" alt="...">
+                <img src="./Sorvetes.png" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval" data-slide="prev">
@@ -47,7 +47,7 @@ if (isset($_POST['salvar'])) {
 
 <section id="historia">
     <div class="row justify-content-center">
-        <div class="col-6">
+        <div class="col-10">
             <h5 class="card-header text-warning bg-dark text-center">
                 NOSSA HISTÓRIA
             </h5>
@@ -85,13 +85,11 @@ if (isset($_POST['salvar'])) {
 
 <section id="cardapio">
     <div class="row justify-content-center">
-        <div class="col-6">
-            <h5 class="card-header text-warning bg-dark text-center"> CARDAPÍO
-            </h5>
+        <div class="col-10">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./cardapio.jpg" class="d-block w-100" alt="...">
+                        <img src="./cardapio.png" class="d-block w-100" alt="...">
                     </div>
                 </div>
             </div>
