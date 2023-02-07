@@ -44,8 +44,7 @@ if (isset($_POST['salvar'])) {
         </button>
     </div>
 </section>
-
-<section id="historia">
+<h1>nome</h1>
     <div class="texto">
         <p>
             <img src="./meio2.png" class="imagem" alt="">
