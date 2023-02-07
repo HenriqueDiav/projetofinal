@@ -46,8 +46,109 @@ if (isset($_POST['salvar'])) {
 </section>
 
 <section id="historia">
+    <div class="texto">
+        <p>
+            <img src="./meio2.png" class="imagem" alt="">
+            The Burger Company has been offering quality burgers and
+            other fast-food items since the late 1950s.
+            The
+            company was founded by brothers Joe and Jim Burger, who opened their first restaurant in their
+            hometown
+            of Chicago, Illinois. The Burger Company quickly grew in popularity due to its generous
+            portions,
+            flavorful food, and affordability.
+            In the 1960s, the Burger Company began to expand its menu items and locations, eventually
+            opening
+            over
+            200 restaurants across the United States. By the 1970s, the Burger Company had become a
+            household
+            name,
+            with many people visiting their restaurants for a quick, delicious meal. As the company grew, it
+            began
+            to offer an ever-increasing variety of menu items, such as salads, sandwiches, and specialty
+            drinks.
+            In the 1990s, the Burger Company began to focus on providing healthier options, such as leaner
+            cuts
+            of
+            beef and vegetarian options. In the 2000s, the Burger Company began to offer food delivery
+            services,
+            as
+            well as a loyalty program that rewards customers for their patronage. Over the years, the Burger
+            Company
+            has continued to evolve and grow, while staying true to its commitment to providing quality food
+            and
+            excellent customer service. Today, the Burger Company is a well-known and beloved fast-food
+            chain,
+            with
+            locations all over the
+        </p>
+    </div>
+
+    <table>
+        <tr>
+            <td>
+                <div class="texto"
+            </td>
+        </tr>
+    </table>
+
+
+
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <img src="./meio3.png" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <ul class="card-text justify-content-right">The Burger Company has been offering quality burgers and
+                        other fast-food items since the late 1950s.
+                        The
+                        company was founded by brothers Joe and Jim Burger, who opened their first restaurant in their
+                        hometown
+                        of Chicago, Illinois. The Burger Company quickly grew in popularity due to its generous
+                        portions,
+                        flavorful food, and affordability.
+
+                        In the 1960s, the Burger Company began to expand its menu items and locations, eventually
+                        opening
+                        over
+                        200 restaurants across the United States. By the 1970s, the Burger Company had become a
+                        household
+                        name,
+                        with many people visiting their restaurants for a quick, delicious meal. As the company grew, it
+                        began
+                        to offer an ever-increasing variety of menu items, such as salads, sandwiches, and specialty
+                        drinks.
+
+                        In the 1990s, the Burger Company began to focus on providing healthier options, such as leaner
+                        cuts
+                        of
+                        beef and vegetarian options. In the 2000s, the Burger Company began to offer food delivery
+                        services,
+                        as
+                        well as a loyalty program that rewards customers for their patronage. Over the years, the Burger
+                        Company
+                        has continued to evolve and grow, while staying true to its commitment to providing quality food
+                        and
+                        excellent customer service. Today, the Burger Company is a well-known and beloved fast-food
+                        chain,
+                        with
+                        locations all over the
+                    </ul>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
     <div class="row justify-content-center">
         <div class="col-10">
+            <img src="..." alt="...">
             <h5 class="card-header text-warning bg-dark text-center">
                 NOSSA HISTÓRIA
             </h5>
@@ -83,13 +184,16 @@ if (isset($_POST['salvar'])) {
 </section>
 
 
-<section id="cardapio">
+<!-- <section id="cardapio">
     <div class="row justify-content-center">
         <div class="col-10">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./cardapio.png" class="d-block w-100" alt="...">
+                        <div class="demonio">
+                            <img src="./cardapio.png" class="d-block w-100" alt="...">
+                            <button type="button" class="btn btn-outline-warning">Warning</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -97,7 +201,7 @@ if (isset($_POST['salvar'])) {
     </div>
 
 
-</section>
+</section> -->
 
 <?php
 require('./conexao.php');

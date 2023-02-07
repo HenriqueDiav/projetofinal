@@ -20,46 +20,81 @@
     body {
         background-color: black;
     }
+.texto{
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500px;
+  border-radius: 20px;
+}
+
+    /* .botao{
+      background-color: grey;
+    color:#ffbc11;
+    text-align: center;
+    height: 40px;
+    border-radius: 7px;
+    font-weight: 900;
+    }
+    .demonio{
+      display: flex;
+    } */
     </style>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link btn btn-warning" href="#">Home <i class="fa-sharp fa-solid fa-burger"></i><span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#historia">História</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#cardapio">Cardápio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">Delivery</a>
-            </li>
-            <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-          login
-        </a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Entrar</a>
-          <a class="dropdown-item" href="#cadastro">Cadastrar-se</a>
+
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link btn btn-warning" href="#">Home <i class="fa-sharp fa-solid fa-burger"></i><span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#historia">História</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cardapio">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Delivery</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-expanded="false">
+                        login
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Entrar</a>
+                        <a class="dropdown-item" href="#cadastro">Cadastrar-se</a>
+                    </div>
+                </li>
+            </ul>
         </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
+        <!-- <div data-spy="scroll" data-target="#navbar-example2" data-offset="0"> -->
+        <!--   <h4 id="historia"></h4>
+  <p>...</p>
+  <h4 id="cardapio"></h4>
+  <p>...</p>
+  <h4 id="cadastro"></h4>
+  <p>...</p>
+  <h4 id="two"></h4>
+  <p>...</p>
+  <h4 id="three"></h4>
+  <p>...</p>
+</div> -->
+    </nav>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-        crossorigin="anonymous"></script>
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+    </script>
