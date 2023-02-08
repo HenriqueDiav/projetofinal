@@ -44,54 +44,6 @@ if (isset($_POST['salvar'])) {
         </button>
     </div>
 </section>
-<h1>nome</h1>
-    <div class="texto">
-        <p>
-            <img src="./meio2.png" class="imagem" alt="">
-            The Burger Company has been offering quality burgers and
-            other fast-food items since the late 1950s.
-            The
-            company was founded by brothers Joe and Jim Burger, who opened their first restaurant in their
-            hometown
-            of Chicago, Illinois. The Burger Company quickly grew in popularity due to its generous
-            portions,
-            flavorful food, and affordability.
-            In the 1960s, the Burger Company began to expand its menu items and locations, eventually
-            opening
-            over
-            200 restaurants across the United States. By the 1970s, the Burger Company had become a
-            household
-            name,
-            with many people visiting their restaurants for a quick, delicious meal. As the company grew, it
-            began
-            to offer an ever-increasing variety of menu items, such as salads, sandwiches, and specialty
-            drinks.
-            In the 1990s, the Burger Company began to focus on providing healthier options, such as leaner
-            cuts
-            of
-            beef and vegetarian options. In the 2000s, the Burger Company began to offer food delivery
-            services,
-            as
-            well as a loyalty program that rewards customers for their patronage. Over the years, the Burger
-            Company
-            has continued to evolve and grow, while staying true to its commitment to providing quality food
-            and
-            excellent customer service. Today, the Burger Company is a well-known and beloved fast-food
-            chain,
-            with
-            locations all over the
-        </p>
-    </div>
-
-    <table>
-        <tr>
-            <td>
-                <div class="texto"
-            </td>
-        </tr>
-    </table>
-
-
 
     <div class="card mb-3" style="max-width: 540px;">
         <div class="row justify-content-center">
