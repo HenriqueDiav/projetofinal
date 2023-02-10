@@ -12,7 +12,7 @@ $bd = "crudbom";
 $conexao = mysqli_connect($servidor,$usuario,$senha,$bd);
 
 if (!$conexao) {
-    echo"erro ao conectar ao banco" . mysqli_error($conexao);
+    echo "erro ao conectar ao banco";
 }
 
 ?>

@@ -1,6 +1,8 @@
 <?php
-include("./header.php");
 require("./conexao.php");
+
+include("./header.php");
+
 ?>
 
 <?php
@@ -22,6 +24,8 @@ if (isset($_POST['salvar'])) {
 ?>
 <section id="home">
     <!-- carrosel -->
+    <div class="row justify-content-center">
+        <div class="col-12">
     <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-interval="10000">
@@ -44,70 +48,113 @@ if (isset($_POST['salvar'])) {
         </button>
     </div>
 </section>
-
-<div class="card mb-3" style="max-width: 540px;">
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-            <img src="./meio3.png" alt="...">
-        </div>
-        <div class="col-md-8">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <ul class="card-text justify-content-right">The Burger Company has been offering quality burgers and
-                    other fast-food items since the late 1950s.
-                    The
-                    company was founded by brothers Joe and Jim Burger, who opened their first restaurant in their
-                    hometown
-                    of Chicago, Illinois. The Burger Company quickly grew in popularity due to its generous
-                    portions,
-                    flavorful food, and affordability.
-
-                    In the 1960s, the Burger Company began to expand its menu items and locations, eventually
-                    opening
-                    over
-                    200 restaurants across the United States. By the 1970s, the Burger Company had become a
-                    household
-                    name,
-                    with many people visiting their restaurants for a quick, delicious meal. As the company grew, it
-                    began
-                    to offer an ever-increasing variety of menu items, such as salads, sandwiches, and specialty
-                    drinks.
-
-                    In the 1990s, the Burger Company began to focus on providing healthier options, such as leaner
-                    cuts
-                    of
-                    beef and vegetarian options. In the 2000s, the Burger Company began to offer food delivery
-                    services,
-                    as
-                    well as a loyalty program that rewards customers for their patronage. Over the years, the Burger
-                    Company
-                    has continued to evolve and grow, while staying true to its commitment to providing quality food
-                    and
-                    excellent customer service. Today, the Burger Company is a well-known and beloved fast-food
-                    chain,
-                    with
-                    locations all over the
-                </ul>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
-    </div>
+<section id="historia">
+<div class="meio">
+    <table>
+        <tr>
+            <td>
+                <div class="mula">
+                    <img src="./meio2.png" alt="imagem do lado da história">
+                </div>
+            </td>
+            <td>
+                The Burger Company has been offering quality burgers and other fast-food items since the late 1950s. The
+                company was founded by brothers Joe and Jim Burger, who opened their first restaurant in their hometown
+                of
+                Chicago, Illinois. The Burger Company quickly grew in popularity due to its generous portions, flavorful
+                food, and affordability. In the 1960s, the Burger Company began to expand its menu items and locations,
+                eventually opening over 200 restaurants across the United States. By the 1970s, the Burger Company had
+                become a household name, with many people visiting their restaurants for a quick, delicious meal. As the
+                company grew, it began to offer an ever-increasing variety of menu items, such as salads, sandwiches,
+                and
+                specialty drinks. In the 1990s, the Burger Company began to focus on providing healthier options, such
+                as
+                leaner cuts of beef and vegetarian options. In the 2000s, the Burger Company began to offer food
+                delivery
+                services, as well as a loyalty program that rewards customers for their patronage. Over the years, the
+                Burger Company has continued to evolve and grow, while staying true to its commitment to providing
+                quality
+                food and excellent customer service. Today, the Burger Company is a well-known and beloved fast-food
+                chain,
+                with locations all over the
+            </td>
+        </tr>
+    </table>
 </div>
+</section>
 
+<section id="ifood">
+    <table class="cardapioimagens">
+            <td>
+                <div class="ifood">
+                    <div class="card text-white bg-dark" style="width: 24rem;">
+                        <a href="#"><img src="./promoções.png" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Veja nossas promoções</h5>
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="ifoodpromo1">
+                    <div class="card text-white bg-dark" style="width: 24rem;">
+                        <a href="#"><img src="./ifood.png" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Peça pelo ifood</h5>
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="ifoodpromo2">
+                    <div class="card text-white bg-dark" style="width: 24rem;">
+                        <a href="#"><img src="./card.png" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Peça pelo ifood</h5>
+                        </div>
+                    </div>
+                </div>
+            </td>
+    </table>
+
+</section>
+
+<section id="delivery">
 <div class="row justify-content-center">
-    <div class="col-10">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./cardapio4.png" class="d-block w-100" alt="...">
+        <div class="col-11">
+<div class="card text-center">
+  <div class="card-header">
+    Featured
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</section>
+
+
+<section id="cardapio">
+    <div class="row justify-content-center">
+        <div class="col-11">
+        <div class="textotd">
+                    <h5 class="card-header bg-dark text-white text-center">CARDÁPIO
+                    </h5>
+                    </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./cardapio4.png" class="d-block w-100" alt="...">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
+</section>
 
 <?php
+
 require('./conexao.php');
 
 if (isset($_POST['salvar'])) {
@@ -130,8 +177,10 @@ if (isset($_POST['salvar'])) {
         <div class="row justify-content-center">
             <div class="col-6">
                 <form action="cadastro.php" method="post">
+                <div class="textotd">
                     <h5 class="card-header bg-dark text-white text-center">LOGIN
                     </h5>
+                </div>
                     <div class="form-group">
                         <input type="text" class="form-control" name="nome" placeholder="Nome">
                     </div>

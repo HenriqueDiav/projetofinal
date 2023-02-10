@@ -5,6 +5,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+    </script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
@@ -15,30 +21,67 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap" rel="stylesheet">
     <title>CRUD</title>
     <style>
     body {
         background-color: black;
     }
-.texto{
-  color: white;
-  text-align: center;
-  font-size: 22px;
-  font-weight: 500px;
-  border-radius: 20px;
-}
 
-    /* .botao{
-      background-color: grey;
-    color:#ffbc11;
-    text-align: center;
-    height: 40px;
-    border-radius: 7px;
-    font-weight: 900;
+    .textotd {
+        font-family: 'League Spartan', sans-serif;
+        text-align: justify;
     }
-    .demonio{
-      display: flex;
-    } */
+
+    .texto {
+        color: white;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 500px;
+        border-radius: 20px;
+    }
+
+    .meio {
+        padding: 5em;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 500px;
+        border-radius: 20px;
+        color: white;
+        font-family: 'League Spartan', sans-serif;
+    }
+
+    .mula img {
+
+        border-radius: 25px;
+    }
+
+    .cardapioimagens {
+        padding: 5em;
+        text-align: center;
+        margin-left: 250px;
+    }
+
+    .cardapioimagens {
+        font-family: 'League Spartan', sans-serif;
+    }
+
+    .ifood {
+        padding: 2em;
+        text-align: center;
+    }
+
+    .ifoodpromo1 {
+        padding: 2em;
+        text-align: center;
+    }
+
+    .ifoodpromo2 {
+        padding: 2em;
+        text-align: center;
+    }
     </style>
 </head>
 
@@ -51,50 +94,94 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <div class="textotd">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link btn btn-warning" href="#">Home <i
+                                class="fa-sharp fa-solid fa-burger"></i><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#historia">História</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cardapio">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#delivery">Delivery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            login
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Entrar</a>
+                            <a class="dropdown-item" href="#cadastro">Cadastrar-se</a>
+                        </div>
+                    </li>
+                    <li>
+                        <!-- Botão para acionar modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+                            Cadastro
+                        </button>
 
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link btn btn-warning" href="#">Home <i class="fa-sharp fa-solid fa-burger"></i><span
-                            class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#historia">História</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#cardapio">Cardápio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">Delivery</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                        aria-expanded="false">
-                        login
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Entrar</a>
-                        <a class="dropdown-item" href="#cadastro">Cadastrar-se</a>
-                    </div>
-                </li>
-            </ul>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Se Cadastre</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Formulario Modal -->
+
+                                        <form class="cadastro">
+                                            <div>
+                                                <div class="row justify-content-center">
+                                                    <div class="col-12">
+                                                        <form action="cadastro.php" method="post">
+                                                            <h5 class="card-header bg-dark text-white text-center">
+                                                                CADASTRO
+                                                            </h5>
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" name="nome"
+                                                                    placeholder="Nome">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" name="email"
+                                                                    placeholder="Email">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" name="endereco"
+                                                                    placeholder="Endereço">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="password" class="form-control" name="senha"
+                                                                    placeholder="Senha">
+                                                            </div>
+                                                            <input type="submit" value="Cadastrar" name="salvar"
+                                                                class="btn btn-warning">
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+
+                                        <!-- Formulario Modal -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        </td>
+                        </table>
+                        <!-- Modal -->
+                    </li>
+                </ul>
+            </div>
         </div>
-        <!-- <div data-spy="scroll" data-target="#navbar-example2" data-offset="0"> -->
-        <!--   <h4 id="historia"></h4>
-  <p>...</p>
-  <h4 id="cardapio"></h4>
-  <p>...</p>
-  <h4 id="cadastro"></h4>
-  <p>...</p>
-  <h4 id="two"></h4>
-  <p>...</p>
-  <h4 id="three"></h4>
-  <p>...</p>
-</div> -->
     </nav>
-
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
-    </script>
