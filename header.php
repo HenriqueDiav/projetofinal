@@ -82,6 +82,10 @@
         padding: 2em;
         text-align: center;
     }
+
+    .cardapio {
+        padding: 10em;
+    }
     </style>
 </head>
 
@@ -109,79 +113,130 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#delivery">Delivery</a>
                     </li>
+                    <!-- MODAL LOGIN/CADASTRO -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
                             aria-expanded="false">
-                            login
+                            Login/Cadastro
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Entrar</a>
-                            <a class="dropdown-item" href="#cadastro">Cadastrar-se</a>
+                            <table>
+                                <div class="modaltitulo">
+                                    <button type="button" class="btn btn-black" data-toggle="modal"
+                                        data-target="#modalExemplo">
+                                        Login
+                                    </button>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn btn-black" data-toggle="modal"
+                                        data-target="#modalexemplo">
+                                        Cadastro
+                                    </button>
+                                </div>
                         </div>
+                        </table>
                     </li>
-                    <li>
-                        <!-- Botão para acionar modal -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
-                            Cadastro
-                        </button>
+                    <!-- Modal Login-->
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Faça o Login</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Formulario Modal Login -->
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Se Cadastre</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <!-- Formulario Modal -->
-
-                                        <form class="cadastro">
-                                            <div>
-                                                <div class="row justify-content-center">
-                                                    <div class="col-12">
-                                                        <form action="cadastro.php" method="post">
-                                                            <h5 class="card-header bg-dark text-white text-center">
-                                                                CADASTRO
-                                                            </h5>
-                                                            <div class="form-group">
-                                                                <input type="text" class="form-control" name="nome"
-                                                                    placeholder="Nome">
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <input type="text" class="form-control" name="email"
-                                                                    placeholder="Email">
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <input type="text" class="form-control" name="endereco"
-                                                                    placeholder="Endereço">
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <input type="password" class="form-control" name="senha"
-                                                                    placeholder="Senha">
-                                                            </div>
-                                                            <input type="submit" value="Cadastrar" name="salvar"
-                                                                class="btn btn-warning">
-                                                        </form>
-                                                    </div>
+                                    <form class="login">
+                                        <div>
+                                            <div class="row justify-content-center">
+                                                <div class="col-12">
+                                                    <form action="cadastro.php" method="post">
+                                                        <h5 class="card-header bg-dark text-white text-center">LOGIN
+                                                        </h5>
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" name="email"
+                                                                placeholder="Email">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" name="endereco"
+                                                                placeholder="Endereço">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="password" class="form-control" name="senha"
+                                                                placeholder="Senha">
+                                                        </div>
+                                                        <input type="submit" value="Salvar" name="salvar"
+                                                            class="btn btn-warning">
+                                                    </form>
                                                 </div>
                                             </div>
-                                        </form>
+                                        </div>
+                                    </form>
 
-                                        <!-- Formulario Modal -->
-                                    </div>
-
+                                    <!-- Formulario Modal Login -->
                                 </div>
                             </div>
                         </div>
-                        </td>
-                        </table>
-                        <!-- Modal -->
-                    </li>
-                </ul>
+                    </div>
             </div>
+            <!-- MODAL Login -->
+            <div class="modal fade" id="modalexemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Se Cadastre</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- Formulario Modal Cadastro-->
+
+                            <form class="cadastro">
+                                <div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-12">
+                                            <form action="cadastro.php" method="post">
+                                                <h5 class="card-header bg-dark text-white text-center">CADASTRO
+                                                </h5>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="nome"
+                                                        placeholder="Nome">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="email"
+                                                        placeholder="Email">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="endereco"
+                                                        placeholder="Endereço">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="password" class="form-control" name="senha"
+                                                        placeholder="Senha">
+                                                </div>
+                                                <input type="submit" value="Cadastrar" name="salvar"
+                                                    class="btn btn-warning">
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <!-- Formulario Modal Cadastro-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </td>
+
+            <!-- MODAL Cadastro -->
+            </ul>
+        </div>
         </div>
     </nav>

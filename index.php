@@ -26,122 +26,357 @@ if (isset($_POST['salvar'])) {
     <!-- carrosel -->
     <div class="row justify-content-center">
         <div class="col-12">
-    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-interval="10000">
-                <img src="./hamburger's.png" class="d-block w-100" alt="...">
+            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="10000">
+                        <img src="./hamburger's.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                        <img src="./cervejav2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Sorvetes.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval"
+                    data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleInterval"
+                    data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
             </div>
-            <div class="carousel-item" data-interval="2000">
-                <img src="./cervejav2.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./Sorvetes.png" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-target="#carouselExampleInterval" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </button>
-    </div>
 </section>
 <section id="historia">
-<div class="meio">
-    <table>
-        <tr>
-            <td>
-                <div class="mula">
-                    <img src="./meio2.png" alt="imagem do lado da história">
-                </div>
-            </td>
-            <td>
-                The Burger Company has been offering quality burgers and other fast-food items since the late 1950s. The
-                company was founded by brothers Joe and Jim Burger, who opened their first restaurant in their hometown
-                of
-                Chicago, Illinois. The Burger Company quickly grew in popularity due to its generous portions, flavorful
-                food, and affordability. In the 1960s, the Burger Company began to expand its menu items and locations,
-                eventually opening over 200 restaurants across the United States. By the 1970s, the Burger Company had
-                become a household name, with many people visiting their restaurants for a quick, delicious meal. As the
-                company grew, it began to offer an ever-increasing variety of menu items, such as salads, sandwiches,
-                and
-                specialty drinks. In the 1990s, the Burger Company began to focus on providing healthier options, such
-                as
-                leaner cuts of beef and vegetarian options. In the 2000s, the Burger Company began to offer food
-                delivery
-                services, as well as a loyalty program that rewards customers for their patronage. Over the years, the
-                Burger Company has continued to evolve and grow, while staying true to its commitment to providing
-                quality
-                food and excellent customer service. Today, the Burger Company is a well-known and beloved fast-food
-                chain,
-                with locations all over the
-            </td>
-        </tr>
-    </table>
-</div>
+    <div class="meio">
+        <table>
+            <tr>
+                <td>
+                    <div class="mula">
+                        <img src="./meio2.png" alt="imagem do lado da história">
+                    </div>
+                </td>
+                <td>
+                    The Burger Company has been offering quality burgers and other fast-food items since the late 1950s.
+                    The
+                    company was founded by brothers Joe and Jim Burger, who opened their first restaurant in their
+                    hometown
+                    of
+                    Chicago, Illinois. The Burger Company quickly grew in popularity due to its generous portions,
+                    flavorful
+                    food, and affordability. In the 1960s, the Burger Company began to expand its menu items and
+                    locations,
+                    eventually opening over 200 restaurants across the United States. By the 1970s, the Burger Company
+                    had
+                    become a household name, with many people visiting their restaurants for a quick, delicious meal. As
+                    the
+                    company grew, it began to offer an ever-increasing variety of menu items, such as salads,
+                    sandwiches,
+                    and
+                    specialty drinks. In the 1990s, the Burger Company began to focus on providing healthier options,
+                    such
+                    as
+                    leaner cuts of beef and vegetarian options. In the 2000s, the Burger Company began to offer food
+                    delivery
+                    services, as well as a loyalty program that rewards customers for their patronage. Over the years,
+                    the
+                    Burger Company has continued to evolve and grow, while staying true to its commitment to providing
+                    quality
+                    food and excellent customer service. Today, the Burger Company is a well-known and beloved fast-food
+                    chain,
+                    with locations all over the
+                </td>
+            </tr>
+        </table>
+    </div>
 </section>
 
 <section id="ifood">
     <table class="cardapioimagens">
-            <td>
-                <div class="ifood">
-                    <div class="card text-white bg-dark" style="width: 24rem;">
-                        <a href="#"><img src="./promoções.png" class="card-img-top" alt="..."></a>
-                        <div class="card-body">
-                            <h5 class="card-title">Veja nossas promoções</h5>
-                        </div>
+        <td>
+            <div class="ifood">
+                <div class="card text-white bg-dark" style="width: 24rem;">
+                    <a href="#"><img src="./promoções.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Veja nossas promoções</h5>
                     </div>
                 </div>
-            </td>
-            <td>
-                <div class="ifoodpromo1">
-                    <div class="card text-white bg-dark" style="width: 24rem;">
-                        <a href="#"><img src="./ifood.png" class="card-img-top" alt="..."></a>
-                        <div class="card-body">
-                            <h5 class="card-title">Peça pelo ifood</h5>
-                        </div>
+            </div>
+        </td>
+        <td>
+            <div class="ifoodpromo1">
+                <div class="card text-white bg-dark" style="width: 24rem;">
+                    <a href="#"><img src="./ifood.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Peça pelo ifood</h5>
                     </div>
                 </div>
-            </td>
-            <td>
-                <div class="ifoodpromo2">
-                    <div class="card text-white bg-dark" style="width: 24rem;">
-                        <a href="#"><img src="./card.png" class="card-img-top" alt="..."></a>
-                        <div class="card-body">
-                            <h5 class="card-title">Peça pelo ifood</h5>
-                        </div>
+            </div>
+        </td>
+        <td>
+            <div class="ifoodpromo2">
+                <div class="card text-white bg-dark" style="width: 24rem;">
+                    <a href="#"><img src="./card.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Peça pelo ifood</h5>
                     </div>
                 </div>
-            </td>
+            </div>
+        </td>
     </table>
 
 </section>
 
 <section id="delivery">
-<div class="row justify-content-center">
-        <div class="col-11">
-<div class="card text-center">
-  <div class="card-header">
-    Featured
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-</section>
+    <div class="cardapio">
+        <div class="textotd">
+            <div class="row justify-content-center">
+                <div class="col-11">
+                    <div class="card text-white bg-dark text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">FAÇA UM PEDIDO AGORA</h5>
+                            <!-- <a href="#" class="btn btn-warning" data-toggle="modal">VEJA AGORA!</a> -->
+                            <button type="button" class="btn btn-warning" data-toggle="modal"
+                                data-target="#exampleModal">
+                                VEJA AGORA!
+                            </button>
+                            <div class="modal" id="exampleModal" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header bg-dark text-white">
+                                            <h5 class="modal-title">Faça seu pedido</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <input type="text" class="form-control bg-white text-dark"
+                                                    aria-label="Text input with checkbox"
+                                                    placeholder="Hamburger's">
+                                        <div class="modal-body bg-dark text-white">
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text">
+                                                        <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with checkbox"
+                                                    placeholder="Hamburger Simples">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                    <div class="input-group-text">
+                                                        <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                    </div>
+                                            </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with checkbox"
+                                                    placeholder="Hamburger com Cheddar">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                    <div class="input-group-text">
+                                                        <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                    </div>
+                                            </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with checkbox"
+                                                    placeholder="Hamburger com Frango">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                    <div class="input-group-text">
+                                                        <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                    </div>
+                                            </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with checkbox"
+                                                    placeholder="Hamburger com Bacon">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                    <div class="input-group-text">
+                                                        <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                    </div>
+                                            </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with checkbox"
+                                                    placeholder="Hamburger Vegetariano">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                    <div class="input-group-text">
+                                                        <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                    </div>
+                                            </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with checkbox"
+                                                    placeholder="Hamburger Duplo">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                    <div class="input-group-text">
+                                                        <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                    </div>
+                                            </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with checkbox"
+                                                    placeholder="Hamburger Duplo">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                    <div class="input-group-text">
+                                                        <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                    </div>
+                                            </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with checkbox"
+                                                    placeholder="Hamburger Duplo">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                    <div class="input-group-text">
+                                                        <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                    </div>
+                                            </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with checkbox"
+                                                    placeholder="Hamburger Duplo">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                    <div class="input-group-text">
+                                                        <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                    </div>
+                                            </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with checkbox"
+                                                    placeholder="Hamburger Duplo">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                    <div class="input-group-text">
+                                                        <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                    </div>
+                                            </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with checkbox"
+                                                    placeholder="Hamburger Duplo">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                    <div class="input-group-text">
+                                                        <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                    </div>
+                                            </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with checkbox"
+                                                    placeholder="Hamburger Duplo">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                    <div class="input-group-text">
+                                                        <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                    </div>
+                                            </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with checkbox"
+                                                    placeholder="Hamburger Duplo">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                    <div class="input-group-text">
+                                                        <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                    </div>
+                                            </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with checkbox"
+                                                    placeholder="Hamburger Duplo">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                    <div class="input-group-text">
+                                                        <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                    </div>
+                                            </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with checkbox"
+                                                    placeholder="Hamburger Duplo">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                    <div class="input-group-text">
+                                                        <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                    </div>
+                                            </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with checkbox"
+                                                    placeholder="Hamburger Duplo">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                    <div class="input-group-text">
+                                                        <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                    </div>
+                                            </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with checkbox"
+                                                    placeholder="Hamburger Duplo">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                    <div class="input-group-text">
+                                                        <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                    </div>
+                                            </div>
+                                                <input type="text" class="form-control"
+                                                    aria-label="Text input with checkbox"
+                                                    placeholder="Hamburger Duplo">
+                                            </div>
+                                           
 
+
+                                        </div>
+                                        <div class="modal-footer bg-dark text-white">
+                                            <button type="button" class="btn btn-warning">Confirmar Pedido</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</section>
 
 <section id="cardapio">
     <div class="row justify-content-center">
         <div class="col-11">
-        <div class="textotd">
-                    <h5 class="card-header bg-dark text-white text-center">CARDÁPIO
-                    </h5>
-                    </div>
+            <div class="textotd">
+                <h5 class="card-header bg-dark text-white text-center">CARDÁPIO
+                </h5>
+            </div>
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -177,10 +412,10 @@ if (isset($_POST['salvar'])) {
         <div class="row justify-content-center">
             <div class="col-6">
                 <form action="cadastro.php" method="post">
-                <div class="textotd">
-                    <h5 class="card-header bg-dark text-white text-center">LOGIN
-                    </h5>
-                </div>
+                    <div class="textotd">
+                        <h5 class="card-header bg-dark text-white text-center">LOGIN
+                        </h5>
+                    </div>
                     <div class="form-group">
                         <input type="text" class="form-control" name="nome" placeholder="Nome">
                     </div>
@@ -215,7 +450,8 @@ if (isset($_POST['salvar'])) {
                     <a class="nav-link" href="#">Twitter <i class="fa-brands fa-twitter"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Youtube <i class="fa-brands fa-youtube"></i></a>
+                    <a class="nav-link" href="https://youtu.be/dQw4w9WgXcQ">Youtube <i
+                            class="fa-brands fa-youtube"></i></a>
                 </li>
             </ul>
         </div>
