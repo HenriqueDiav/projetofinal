@@ -24,10 +24,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
     <title>CRUD</title>
     <style>
     body {
         background-color: black;
+    }
+
+    .textotopo {
+        font-family: 'Lalezar', cursive;
+        text-align: justify;
     }
 
     .textotd {
@@ -90,7 +98,25 @@
 </head>
 
 <body>
+    <?php
 
+require('./conexao.php');
+
+if (isset($_POST['salvar'])) {
+    $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $endereco = $_POST['endereco'];
+    $senha = $_POST['senha'];
+
+    $query = "INSERT INTO `tarefas`(`nome`, `email`, `endereco`, `senha`) VALUES ('$nome','$email','$endereco','$senha')";
+
+    $result = mysqli_query($conexao, $query);
+
+    header("location: pagina.php");
+
+}
+
+?>
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -98,26 +124,26 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <div class="textotd">
+            <div class="texttopo">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link btn btn-warning" href="#">Home <i
+                        <a class="nav-link btn btn-warning" href="./index.php">HOME <i
                                 class="fa-sharp fa-solid fa-burger"></i><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#historia">História</a>
+                        <a class="nav-link" href="#historia">HISTÓRIA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#cardapio">Cardápio</a>
+                        <a class="nav-link" href="#cardapio">CARDÁPIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#delivery">Delivery</a>
+                        <a class="nav-link" href="./delivery.php">DELIVERY</a>
                     </li>
                     <!-- MODAL LOGIN/CADASTRO -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
                             aria-expanded="false">
-                            Login/Cadastro
+                            LOGIN/CADASTRO
                         </a>
                         <div class="dropdown-menu">
                             <table>
