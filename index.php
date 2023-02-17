@@ -99,7 +99,7 @@ if (isset($_POST['salvar'])) {
         <td>
             <div class="ifood">
                 <div class="card text-white bg-dark" style="width: 24rem;">
-                    <a href="#"><img src="./promoções.png" class="card-img-top" alt="..."></a>
+                    <a href="https://www.ifood.com.br/inicio" target="_blank"><img src="./promoções.png" class="card-img-top" alt="..."></a>
                     <div class="card-body">
                         <h5 class="card-title">Veja nossas promoções</h5>
                     </div>
@@ -109,7 +109,7 @@ if (isset($_POST['salvar'])) {
         <td>
             <div class="ifoodpromo1">
                 <div class="card text-white bg-dark" style="width: 24rem;">
-                    <a href="#"><img src="./ifood.png" class="card-img-top" alt="..."></a>
+                    <a href="https://www.ifood.com.br/inicio" target="_blank"><img src="./ifood.png" class="card-img-top" alt="..."></a>
                     <div class="card-body">
                         <h5 class="card-title">Peça pelo ifood</h5>
                     </div>
@@ -119,7 +119,7 @@ if (isset($_POST['salvar'])) {
         <td>
             <div class="ifoodpromo2">
                 <div class="card text-white bg-dark" style="width: 24rem;">
-                    <a href="#"><img src="./card.png" class="card-img-top" alt="..."></a>
+                    <a href="https://www.ifood.com.br/inicio" target="_blank"><img src="./card.png" class="card-img-top" alt="..."></a>
                     <div class="card-body">
                         <h5 class="card-title">Peça pelo ifood</h5>
                     </div>
@@ -132,7 +132,7 @@ if (isset($_POST['salvar'])) {
 
 <section id="cardapio">
     <div class="row justify-content-center">
-        <div class="col-11">
+        <div class="col-12">
             <div class="textotd">
                 <h5 class="card-header bg-dark text-white text-center">CARDÁPIO
                 </h5>
