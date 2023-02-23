@@ -35,6 +35,10 @@
     body {
         background-color: black;
     }
+    .preco{
+        color: white;
+        background-color: grey;
+    }
 
     .textotd {
         font-family: 'Roboto', sans-serif;
@@ -44,7 +48,7 @@
     .textonav {
         font-family: 'Roboto', sans-serif;
     }
-    a {
+    .botao {
         text-decoration: none;
         font-size: 20px;
         font-weight: bold;
